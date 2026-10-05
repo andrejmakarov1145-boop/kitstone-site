@@ -1,0 +1,24 @@
+{
+  "name": "kitstone-abakan-site-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Демонстрационный сайт Китстоун — запросы на продукцию и коммерческие предложения",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.5.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
